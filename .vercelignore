@@ -1,0 +1,7 @@
+node_modules
+dist
+*.md
+backend/test-api-realtime.js
+backend/.env.example
+backend/.env.production.example
+.github

@@ -4,6 +4,7 @@
   "installCommand": "cd backend && npm install",
   "outputDirectory": ".",
   "framework": null,
+  "nodeVersion": "20.x",
   "functions": {
     "backend/api/index.ts": {
       "runtime": "@vercel/node@3.0.0",
