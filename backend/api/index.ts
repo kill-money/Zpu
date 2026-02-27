@@ -122,6 +122,25 @@ app.use(async (_req, _res, next) => {
   }
 });
 
+// Root endpoint
+app.get('/', (_req, res) => {
+  res.json({
+    success: true,
+    name: 'ZPU Loan Platform API',
+    version: '1.0.0',
+    endpoints: {
+      health: '/health',
+      auth: '/api/auth',
+      loans: '/api/loans',
+      user: '/api/user',
+      admin: '/api/admin',
+      calculator: '/api/calculator',
+      credit: '/api/credit',
+      compliance: '/api/compliance'
+    }
+  });
+});
+
 // Health check
 app.get('/health', (_req, res) => {
   res.json({
