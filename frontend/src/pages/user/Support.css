@@ -1,0 +1,315 @@
+/* Support Page Styles */
+.support-page {
+  padding: 16px;
+  background: #f5f5f5;
+  min-height: 100vh;
+  padding-bottom: 120px;
+}
+
+.support-header {
+  text-align: center;
+  margin-bottom: 24px;
+  padding: 16px 0;
+}
+
+.support-header h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+  color: #262626;
+}
+
+.support-header p {
+  margin: 8px 0 0 0;
+  color: #8c8c8c;
+  font-size: 14px;
+}
+
+/* FAQ Section */
+.faq-section .search-box {
+  margin-bottom: 16px;
+}
+
+.faq-answer {
+  padding: 16px 0;
+}
+
+.faq-answer p {
+  margin: 0 0 16px 0;
+  color: #595959;
+  line-height: 1.6;
+}
+
+.faq-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 12px;
+  border-top: 1px solid #f0f0f0;
+}
+
+.faq-tags {
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+
+.faq-helpful {
+  display: flex;
+  align-items: center;
+}
+
+.empty-faqs {
+  text-align: center;
+  padding: 40px 20px;
+  color: #8c8c8c;
+}
+
+.empty-faqs svg {
+  font-size: 48px;
+  margin-bottom: 12px;
+}
+
+/* Contact Section */
+.contact-section .contact-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #f6f8ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  color: #1677ff;
+}
+
+.contact-item .contact-label {
+  font-weight: 600;
+  color: #262626;
+  margin-bottom: 4px;
+}
+
+.contact-item .contact-description {
+  color: #8c8c8c;
+  font-size: 12px;
+}
+
+.contact-meta .contact-value {
+  font-weight: 600;
+  color: #1677ff;
+  margin-bottom: 2px;
+}
+
+.contact-meta .contact-availability {
+  font-size: 12px;
+  color: #8c8c8c;
+}
+
+.contact-actions {
+  margin-top: 16px;
+}
+
+/* Resources Section */
+.resources-section .section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.section-header h4 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #262626;
+}
+
+.ticket-item .ticket-subject {
+  font-weight: 600;
+  color: #262626;
+  margin-bottom: 4px;
+}
+
+.ticket-item .last-response {
+  font-size: 12px;
+  color: #8c8c8c;
+}
+
+.no-tickets {
+  text-align: center;
+  padding: 20px;
+  color: #8c8c8c;
+}
+
+.no-tickets svg {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+.resource-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #f6f8ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  color: #1677ff;
+}
+
+.resource-item .resource-title {
+  font-weight: 600;
+  color: #262626;
+  margin-bottom: 4px;
+}
+
+.resource-item .resource-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.resource-duration {
+  font-size: 12px;
+  color: #8c8c8c;
+}
+
+/* Ticket Modal */
+.ticket-modal .form-item {
+  margin-bottom: 20px;
+}
+
+.ticket-modal label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #262626;
+}
+
+.form-actions {
+  margin-top: 24px;
+}
+
+/* Contact Modal */
+.contact-modal .contact-intro {
+  margin: 0 0 20px 0;
+  color: #595959;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.contact-icon-large {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #f6f8ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  color: #1677ff;
+}
+
+.contact-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #262626;
+}
+
+.contact-description {
+  color: #595959;
+  margin: 4px 0;
+}
+
+.contact-availability {
+  font-size: 12px;
+  color: #52c41a;
+  font-weight: 600;
+}
+
+.contact-value {
+  font-size: 14px;
+  color: #1677ff;
+  font-weight: 600;
+  margin-top: 4px;
+}
+
+/* Resource Modal */
+.resource-modal .resource-categories {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.resource-category {
+  margin-bottom: 24px;
+}
+
+.resource-category h4 {
+  margin: 0 0 12px 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: #1677ff;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+/* Status and Priority Colors */
+.status-open { color: #1677ff; }
+.status-in_progress { color: #faad14; }
+.status-resolved { color: #52c41a; }
+.status-closed { color: #8c8c8c; }
+
+.priority-low { color: #52c41a; }
+.priority-medium { color: #faad14; }
+.priority-high { color: #ff4d4f; }
+
+/* Responsive Design */
+@media (max-width: 480px) {
+  .support-page {
+    padding: 12px;
+  }
+  
+  .faq-footer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  
+  .contact-icon,
+  .resource-icon {
+    width: 28px;
+    height: 28px;
+    font-size: 14px;
+  }
+  
+  .contact-icon-large {
+    width: 36px;
+    height: 36px;
+    font-size: 18px;
+  }
+  
+  .section-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+}
+
+/* Animation for helpful button */
+.faq-helpful button:hover {
+  transform: scale(1.05);
+  transition: transform 0.2s ease;
+}
+
+/* Collapse panel styling */
+.adm-collapse-panel-content {
+  background: #fafafa;
+  border-radius: 0 0 8px 8px;
+}
+
+/* List item hover effects */
+.adm-list-item:hover {
+  background: rgba(22, 119, 255, 0.02);
+  transition: background 0.2s ease;
+}

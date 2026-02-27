@@ -1,0 +1,424 @@
+/* Payments Page Styles */
+.payments-page {
+  padding: 16px;
+  background: #f5f5f5;
+  min-height: 100vh;
+  padding-bottom: 120px; /* Account for sticky submit card */
+}
+
+.payments-header {
+  text-align: center;
+  margin-bottom: 24px;
+  padding: 16px 0;
+}
+
+.payments-header h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+  color: #262626;
+}
+
+.loan-info {
+  margin: 8px 0 0 0;
+  color: #8c8c8c;
+  font-size: 14px;
+}
+
+/* Payment Summary Grid */
+.summary-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.summary-item {
+  text-align: center;
+  padding: 12px;
+  background: #fafafa;
+  border-radius: 8px;
+}
+
+.summary-item.past-due {
+  background: #fff2f0;
+  border: 1px solid #ffccc7;
+}
+
+.summary-item .label {
+  font-size: 12px;
+  color: #8c8c8c;
+  margin-bottom: 4px;
+}
+
+.summary-item .value {
+  font-size: 18px;
+  font-weight: 600;
+  color: #262626;
+}
+
+.summary-item .value.primary {
+  color: #1677ff;
+}
+
+.summary-item .value.error {
+  color: #ff4d4f;
+}
+
+.alert-banner {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px;
+  background: #fff2f0;
+  border: 1px solid #ffccc7;
+  border-radius: 6px;
+  color: #ff4d4f;
+  font-size: 14px;
+}
+
+/* Amount Selection */
+.amount-option {
+  padding: 16px;
+  text-align: center;
+  border: 2px solid #f0f0f0;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: #fff;
+}
+
+.amount-option:hover {
+  border-color: #d9d9d9;
+}
+
+.amount-option.selected {
+  border-color: #1677ff;
+  background: #f6f8ff;
+}
+
+.amount-option svg {
+  font-size: 24px;
+  color: #1677ff;
+  margin-bottom: 8px;
+}
+
+.amount-label {
+  font-size: 12px;
+  color: #8c8c8c;
+  margin-bottom: 4px;
+}
+
+.amount-value {
+  font-size: 16px;
+  font-weight: 600;
+  color: #262626;
+}
+
+.selected-amount {
+  text-align: center;
+  margin-top: 16px;
+  padding: 12px;
+  background: #f6f8ff;
+  border-radius: 6px;
+  color: #1677ff;
+}
+
+/* Payment Methods */
+.payment-methods {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.payment-method {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  border: 2px solid #f0f0f0;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: #fff;
+}
+
+.payment-method:hover {
+  border-color: #d9d9d9;
+}
+
+.payment-method.selected {
+  border-color: #1677ff;
+  background: #f6f8ff;
+}
+
+.method-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.method-type svg {
+  font-size: 24px;
+  color: #1677ff;
+}
+
+.method-details .method-name {
+  font-weight: 600;
+  color: #262626;
+  margin-bottom: 2px;
+}
+
+.method-details .method-number {
+  font-size: 12px;
+  color: #8c8c8c;
+}
+
+.method-badges {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Schedule Options */
+.schedule-option {
+  margin-left: 8px;
+}
+
+.option-title {
+  font-weight: 600;
+  color: #262626;
+  margin-bottom: 2px;
+}
+
+.option-desc {
+  font-size: 12px;
+  color: #8c8c8c;
+}
+
+.date-picker-container {
+  margin-top: 16px;
+  text-align: center;
+}
+
+/* AutoPay Settings */
+.autopay-content {
+  text-align: center;
+}
+
+.autopay-description {
+  color: #8c8c8c;
+  margin-bottom: 16px;
+  font-size: 14px;
+}
+
+.autopay-details {
+  margin: 16px 0;
+  padding: 12px;
+  background: #fafafa;
+  border-radius: 6px;
+}
+
+.autopay-setting {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.autopay-setting:last-child {
+  margin-bottom: 0;
+}
+
+.setting-value {
+  font-weight: 600;
+  color: #262626;
+}
+
+/* Payment History */
+.payment-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.payment-amount {
+  font-weight: 600;
+  color: #262626;
+}
+
+.payment-date {
+  font-size: 12px;
+  color: #8c8c8c;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 24px;
+  color: #8c8c8c;
+}
+
+/* Submit Section */
+.submit-section {
+  padding: 16px 0;
+}
+
+.payment-summary {
+  margin-bottom: 16px;
+  padding: 16px;
+  background: #fafafa;
+  border-radius: 8px;
+}
+
+.summary-line {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.summary-line:last-child {
+  margin-bottom: 0;
+}
+
+.summary-line span:first-child {
+  color: #8c8c8c;
+}
+
+.summary-line strong,
+.summary-line span:last-child {
+  color: #262626;
+  font-weight: 600;
+}
+
+/* Compliance Notice */
+.compliance-notice {
+  padding: 16px;
+}
+
+.compliance-notice h4 {
+  margin: 0 0 12px 0;
+  color: #262626;
+  font-size: 16px;
+}
+
+.compliance-notice p {
+  margin: 0 0 12px 0;
+  color: #595959;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.compliance-notice p:last-child {
+  margin-bottom: 0;
+}
+
+.fcra-notice {
+  background: #fff7e6;
+  padding: 12px;
+  border-radius: 6px;
+  border-left: 4px solid #faad14;
+}
+
+/* Modal Styles */
+.confirmation-details {
+  margin-bottom: 16px;
+  padding: 16px;
+  background: #fafafa;
+  border-radius: 8px;
+}
+
+.confirmation-details p {
+  margin: 8px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.confirmation-disclaimer {
+  margin-bottom: 16px;
+  padding: 12px;
+  background: #fff7e6;
+  border-radius: 6px;
+  border-left: 4px solid #faad14;
+}
+
+.confirmation-disclaimer p {
+  margin: 0;
+  font-size: 14px;
+  color: #595959;
+}
+
+/* Payment Error */
+.payment-error {
+  padding: 16px;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+  .payments-page {
+    padding: 12px;
+  }
+  
+  .summary-grid {
+    gap: 12px;
+  }
+  
+  .amount-option {
+    padding: 12px;
+  }
+  
+  .amount-option svg {
+    font-size: 20px;
+  }
+  
+  .amount-value {
+    font-size: 14px;
+  }
+  
+  .payment-method {
+    padding: 12px;
+  }
+}
+
+/* Loading States */
+.loading-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Animation Classes */
+.fade-in {
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.slide-up {
+  animation: slideUp 0.3s ease;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

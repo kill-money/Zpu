@@ -1,0 +1,71 @@
+/* My Loans Page Styles */
+.my-loans-page {
+  padding: 16px;
+  background: #f5f5f5;
+  min-height: 100vh;
+  padding-bottom: 120px;
+}
+
+.my-loans-header {
+  text-align: center;
+  margin-bottom: 24px;
+  padding: 16px 0;
+}
+
+.my-loans-header h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+  color: #262626;
+}
+
+.my-loans-header p {
+  margin: 8px 0 0 0;
+  color: #8c8c8c;
+  font-size: 14px;
+}
+
+.loan-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.loan-id {
+  font-weight: 600;
+  color: #262626;
+}
+
+.loan-meta {
+  font-size: 12px;
+  color: #8c8c8c;
+}
+
+.loan-meta div {
+  margin-bottom: 2px;
+}
+
+.loan-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.quick-actions-card {
+  margin-top: 16px;
+}
+
+.quick-actions {
+  padding: 16px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+  .my-loans-page {
+    padding: 12px;
+  }
+  
+  .loan-actions {
+    flex-direction: column;
+    gap: 4px;
+  }
+}

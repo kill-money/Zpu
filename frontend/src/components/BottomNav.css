@@ -1,0 +1,105 @@
+/* BottomNav Component Styles */
+.bottom-nav-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: #fff;
+  border-top: 1px solid #f0f0f0;
+  padding-bottom: env(safe-area-inset-bottom, 0);
+}
+
+.bottom-nav-tabbar {
+  background: #fff;
+  padding: 0;
+}
+
+.bottom-nav-tabbar .adm-tab-bar-item {
+  padding: 8px 4px 4px 4px;
+  min-height: 52px;
+}
+
+.bottom-nav-tabbar .adm-tab-bar-item-icon {
+  font-size: 22px;
+  margin-bottom: 2px;
+}
+
+.bottom-nav-tabbar .adm-tab-bar-item-title {
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.bottom-nav-tabbar .adm-tab-bar-item-active {
+  color: #1677ff;
+}
+
+.bottom-nav-tabbar .adm-tab-bar-item-active .adm-tab-bar-item-icon {
+  color: #1677ff;
+}
+
+/* Badge support for future notifications */
+.bottom-nav-container .adm-badge {
+  position: absolute;
+  top: 6px;
+  right: 50%;
+  transform: translateX(50%);
+}
+
+/* Animation for smooth transitions */
+.bottom-nav-tabbar .adm-tab-bar-item {
+  transition: all 0.2s cubic-bezier(0.34, 0.69, 0.1, 1);
+}
+
+.bottom-nav-tabbar .adm-tab-bar-item:active {
+  transform: scale(0.95);
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .bottom-nav-container {
+    background: #141414;
+    border-top: 1px solid #303030;
+  }
+  
+  .bottom-nav-tabbar {
+    background: #141414;
+  }
+  
+  .bottom-nav-tabbar .adm-tab-bar-item {
+    color: rgba(255, 255, 255, 0.65);
+  }
+  
+  .bottom-nav-tabbar .adm-tab-bar-item-active {
+    color: #1677ff;
+  }
+}
+
+/* Safe area adjustments for different device types */
+@supports (padding: max(0px)) {
+  .bottom-nav-container {
+    padding-bottom: max(8px, env(safe-area-inset-bottom));
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 375px) {
+  .bottom-nav-tabbar .adm-tab-bar-item-icon {
+    font-size: 20px;
+  }
+  
+  .bottom-nav-tabbar .adm-tab-bar-item-title {
+    font-size: 9px;
+  }
+}
+
+@media (min-width: 768px) {
+  .bottom-nav-container {
+    max-width: 414px;
+    margin: 0 auto;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 16px 16px 0 0;
+  }
+}

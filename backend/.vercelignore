@@ -1,0 +1,6 @@
+node_modules
+dist
+*.md
+test-api-realtime.js
+.env.example
+.env.production.example

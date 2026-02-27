@@ -1,0 +1,190 @@
+{
+  "title": "Credit Check Simulation",
+  "subtitle": "Simulate Credit Report Analysis",
+  "description": "Test our credit evaluation system with various credit profiles.",
+  
+  "simulation": {
+    "title": "Credit Profile Simulation",
+    "generateProfile": "Generate Random Profile",
+    "customProfile": "Create Custom Profile",
+    "runAnalysis": "Run Credit Analysis",
+    "resetProfile": "Reset Profile"
+  },
+  
+  "creditScore": {
+    "title": "Credit Score",
+    "current": "Current Score",
+    "range": "Score Range",
+    "excellent": "Excellent (750-850)",
+    "veryGood": "Very Good (700-749)",
+    "good": "Good (650-699)",
+    "fair": "Fair (600-649)",
+    "poor": "Poor (300-599)",
+    "factors": "Score Factors"
+  },
+  
+  "creditHistory": {
+    "title": "Credit History",
+    "historyLength": "Credit History Length",
+    "oldestAccount": "Oldest Account",
+    "newestAccount": "Newest Account",
+    "averageAge": "Average Account Age",
+    "accountTypes": "Account Types"
+  },
+  
+  "paymentHistory": {
+    "title": "Payment History",
+    "onTime": "On-Time Payments",
+    "late30": "30+ Days Late",
+    "late60": "60+ Days Late",
+    "late90": "90+ Days Late",
+    "chargeOffs": "Charge-offs",
+    "collections": "Collections",
+    "publicRecords": "Public Records"
+  },
+  
+  "creditUtilization": {
+    "title": "Credit Utilization",
+    "overallRatio": "Overall Utilization Ratio",
+    "perCardRatio": "Per-Card Utilization",
+    "totalCredit": "Total Available Credit",
+    "totalBalance": "Total Balance",
+    "recommendation": "Ideal utilization is below 30%"
+  },
+  
+  "accounts": {
+    "title": "Credit Accounts",
+    "totalAccounts": "Total Accounts",
+    "openAccounts": "Open Accounts",
+    "closedAccounts": "Closed Accounts",
+    "creditCards": "Credit Cards",
+    "installmentLoans": "Installment Loans",
+    "mortgages": "Mortgages",
+    "studentLoans": "Student Loans",
+    "autoLoans": "Auto Loans"
+  },
+  
+  "inquiries": {
+    "title": "Credit Inquiries",
+    "hardInquiries": "Hard Inquiries",
+    "softInquiries": "Soft Inquiries",
+    "recent": "Recent Inquiries (24 months)",
+    "impact": "Impact on Score",
+    "types": {
+      "creditCard": "Credit Card",
+      "autoLoan": "Auto Loan",
+      "mortgage": "Mortgage",
+      "personalLoan": "Personal Loan",
+      "studentLoan": "Student Loan"
+    }
+  },
+  
+  "publicRecords": {
+    "title": "Public Records",
+    "bankruptcies": "Bankruptcies",
+    "taxLiens": "Tax Liens",
+    "judgments": "Civil Judgments",
+    "foreclosures": "Foreclosures",
+    "none": "No Public Records"
+  },
+  
+  "riskAssessment": {
+    "title": "Risk Assessment",
+    "overallRisk": "Overall Risk Level",
+    "riskFactors": "Risk Factors",
+    "protectiveFactors": "Protective Factors",
+    "recommendation": "Lending Recommendation",
+    "approvalOdds": "Approval Odds",
+    "suggestedTerms": "Suggested Terms"
+  },
+  
+  "riskLevels": {
+    "veryLow": "Very Low Risk",
+    "low": "Low Risk",
+    "moderate": "Moderate Risk",
+    "high": "High Risk",
+    "veryHigh": "Very High Risk"
+  },
+  
+  "recommendations": {
+    "title": "Recommendations",
+    "approve": "Approve",
+    "approveWithConditions": "Approve with Conditions",
+    "counterOffer": "Counter Offer",
+    "decline": "Decline",
+    "manualReview": "Manual Review Required"
+  },
+  
+  "lendingTerms": {
+    "title": "Suggested Lending Terms",
+    "interestRate": "Interest Rate",
+    "maxLoanAmount": "Maximum Loan Amount",
+    "requiredDownPayment": "Required Down Payment",
+    "loanTerm": "Loan Term",
+    "conditions": "Special Conditions",
+    "collateral": "Collateral Requirements"
+  },
+  
+  "simulation_profiles": {
+    "title": "Pre-defined Profiles",
+    "excellent": {
+      "name": "Excellent Credit Profile",
+      "description": "High credit score, long history, low utilization"
+    },
+    "good": {
+      "name": "Good Credit Profile", 
+      "description": "Solid credit score, some minor issues"
+    },
+    "fair": {
+      "name": "Fair Credit Profile",
+      "description": "Average credit, some delinquencies"
+    },
+    "poor": {
+      "name": "Poor Credit Profile",
+      "description": "Low credit score, multiple issues"
+    },
+    "newCredit": {
+      "name": "New Credit Profile",
+      "description": "Limited credit history, few accounts"
+    },
+    "recovery": {
+      "name": "Credit Recovery Profile",
+      "description": "Rebuilding after financial difficulties"
+    }
+  },
+  
+  "analysis": {
+    "title": "Credit Analysis Results",
+    "scoreBreakdown": "Score Breakdown",
+    "keyFindings": "Key Findings",
+    "strengthsWeaknesses": "Strengths & Weaknesses",
+    "improvementSuggestions": "Improvement Suggestions",
+    "monthlyMonitoring": "Monthly Monitoring Points"
+  },
+  
+  "compliance": {
+    "title": "Compliance Checks",
+    "fcraCompliant": "FCRA Compliant",
+    "ecoaCompliant": "ECOA Compliant", 
+    "adverseAction": "Adverse Action Required",
+    "disclosures": "Required Disclosures",
+    "documentation": "Documentation Requirements"
+  },
+  
+  "buttons": {
+    "runSimulation": "Run Simulation",
+    "generateNew": "Generate New Profile",
+    "saveProfile": "Save Profile",
+    "exportReport": "Export Report",
+    "viewDetails": "View Details",
+    "compareProfiles": "Compare Profiles"
+  },
+  
+  "messages": {
+    "analyzing": "Analyzing credit profile...",
+    "simulationComplete": "Credit simulation complete",
+    "profileGenerated": "New profile generated",
+    "analysisError": "Error during analysis",
+    "noProfile": "Please create or load a credit profile first"
+  }
+}

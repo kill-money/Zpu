@@ -1,0 +1,125 @@
+{
+  "required": "This field is required",
+  "invalid": "Invalid format",
+  "tooShort": "Must be at least {{min}} characters",
+  "tooLong": "Must be no more than {{max}} characters",
+  "minValue": "Must be at least {{min}}",
+  "maxValue": "Must be no more than {{max}}",
+  "invalidEmail": "Invalid email address",
+  "invalidPhone": "Invalid phone number format",
+  "invalidUrl": "Invalid URL format",
+  "invalidDate": "Invalid date format",
+  "futureDateRequired": "Date must be in the future",
+  "pastDateRequired": "Date must be in the past",
+  "passwordTooWeak": "Password must contain uppercase, lowercase, numbers and special characters",
+  "passwordMismatch": "Passwords do not match",
+  
+  "ssn": {
+    "required": "Social Security Number is required",
+    "invalid": "Invalid SSN format. Must be XXX-XX-XXXX or XXXXXXXXX",
+    "invalidLength": "SSN must be exactly 9 digits",
+    "invalidFormat": "SSN must follow XXX-XX-XXXX format",
+    "invalidDigits": "SSN can only contain digits and hyphens",
+    "invalidArea": "Invalid SSN area number (first 3 digits)",
+    "invalidGroup": "Invalid SSN group number (middle 2 digits)",
+    "invalidSerial": "Invalid SSN serial number (last 4 digits)",
+    "blacklisted": "This SSN is not valid for use"
+  },
+  
+  "ein": {
+    "required": "Employer Identification Number is required",
+    "invalid": "Invalid EIN format. Must be XX-XXXXXXX",
+    "invalidLength": "EIN must be exactly 9 digits",
+    "invalidFormat": "EIN must follow XX-XXXXXXX format",
+    "invalidPrefix": "Invalid EIN prefix (first 2 digits)",
+    "invalidDigits": "EIN can only contain digits and hyphens"
+  },
+  
+  "routing": {
+    "required": "Bank routing number is required",
+    "invalid": "Invalid routing number format",
+    "invalidLength": "Routing number must be exactly 9 digits",
+    "invalidChecksum": "Invalid routing number checksum",
+    "bankNotFound": "Bank not found for this routing number",
+    "invalidBank": "This bank does not support ACH transfers"
+  },
+  
+  "account": {
+    "required": "Account number is required",
+    "invalid": "Invalid account number format",
+    "tooShort": "Account number must be at least {{min}} digits",
+    "tooLong": "Account number must be no more than {{max}} digits",
+    "invalidDigits": "Account number can only contain digits"
+  },
+  
+  "address": {
+    "required": "Address is required",
+    "invalid": "Invalid address format",
+    "streetRequired": "Street address is required",
+    "cityRequired": "City is required",
+    "stateRequired": "State is required",
+    "zipRequired": "ZIP code is required",
+    "invalidZip": "Invalid ZIP code format",
+    "invalidZipPlus4": "Invalid ZIP+4 format (XXXXX-XXXX)",
+    "invalidState": "Invalid US state abbreviation"
+  },
+  
+  "state": {
+    "required": "State is required",
+    "invalid": "Invalid US state abbreviation",
+    "notUS": "Only US states are accepted"
+  },
+  
+  "phone": {
+    "required": "Phone number is required",
+    "invalid": "Invalid US phone number format",
+    "invalidFormat": "Phone must be in format (XXX) XXX-XXXX",
+    "invalidArea": "Invalid area code",
+    "invalidExchange": "Invalid exchange code"
+  },
+  
+  "income": {
+    "required": "Annual income is required",
+    "invalid": "Invalid income amount",
+    "tooLow": "Minimum annual income is ${{min}}",
+    "tooHigh": "Maximum annual income is ${{max}}",
+    "notRealistic": "Please enter a realistic income amount"
+  },
+  
+  "credit": {
+    "scoreRequired": "Credit score is required",
+    "scoreInvalid": "Credit score must be between 300 and 850",
+    "scoreTooLow": "Minimum credit score required is {{min}}",
+    "historyRequired": "Credit history length is required",
+    "historyTooShort": "Minimum credit history is {{min}} months"
+  },
+  
+  "loan": {
+    "amountRequired": "Loan amount is required",
+    "amountTooLow": "Minimum loan amount is ${{min}}",
+    "amountTooHigh": "Maximum loan amount is ${{max}}",
+    "termRequired": "Loan term is required",
+    "termTooShort": "Minimum loan term is {{min}} months",
+    "termTooLong": "Maximum loan term is {{max}} months",
+    "purposeRequired": "Loan purpose is required",
+    "invalidPurpose": "Invalid loan purpose selected"
+  },
+  
+  "employment": {
+    "statusRequired": "Employment status is required",
+    "employerRequired": "Employer name is required when employed",
+    "positionRequired": "Job position is required when employed",
+    "durationRequired": "Employment duration is required",
+    "durationTooShort": "Minimum employment duration is {{min}} months"
+  },
+  
+  "identity": {
+    "dobRequired": "Date of birth is required",
+    "dobInvalid": "Invalid date of birth",
+    "tooYoung": "Must be at least 18 years old",
+    "tooOld": "Invalid age - please verify date of birth",
+    "citizenshipRequired": "Citizenship status is required",
+    "idRequired": "Government issued ID is required",
+    "idTypeRequired": "ID type is required"
+  }
+}

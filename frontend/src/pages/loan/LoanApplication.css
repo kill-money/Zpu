@@ -1,0 +1,325 @@
+.loan-application-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px;
+  background: #fff;
+}
+
+.loan-application-header {
+  text-align: center;
+  margin-bottom: 32px;
+  padding: 24px;
+  background: linear-gradient(135deg, #1890ff 0%, #096dd9 100%);
+  color: white;
+  border-radius: 8px;
+}
+
+.loan-application-header h1 {
+  color: white;
+  margin-bottom: 8px;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.loan-application-header p {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 16px;
+  margin: 0;
+}
+
+.steps-content {
+  min-height: 400px;
+  padding: 24px 0;
+}
+
+.steps-action {
+  margin-top: 24px;
+  padding-top: 24px;
+  border-top: 1px solid #f0f0f0;
+}
+
+/* Security and compliance styling */
+.security-notice {
+  background: #f6ffed;
+  border: 1px solid #b7eb8f;
+  border-radius: 6px;
+  padding: 16px;
+  margin: 16px 0;
+}
+
+.security-notice .anticon {
+  color: #52c41a;
+  margin-right: 8px;
+}
+
+.compliance-section {
+  background: #fafafa;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 16px 0;
+}
+
+.compliance-section h4 {
+  color: #1890ff;
+  margin-bottom: 12px;
+}
+
+/* Bank account verification styling */
+.bank-verification-notice {
+  background: #e6f7ff;
+  border: 1px solid #91d5ff;
+  border-radius: 6px;
+  padding: 16px;
+  margin: 16px 0;
+}
+
+.bank-verification-notice .anticon {
+  color: #1890ff;
+  margin-right: 8px;
+}
+
+/* Document upload styling */
+.document-upload-section {
+  border: 2px dashed #d9d9d9;
+  border-radius: 6px;
+  padding: 20px;
+  text-align: center;
+  transition: border-color 0.3s;
+}
+
+.document-upload-section:hover {
+  border-color: #1890ff;
+}
+
+.upload-hint {
+  color: #666;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+/* SSN input styling */
+.ssn-input {
+  font-family: monospace;
+  letter-spacing: 1px;
+}
+
+/* Form validation styling */
+.ant-form-item-has-error .ant-input {
+  border-color: #ff4d4f;
+}
+
+.ant-form-item-has-error .ant-input:focus {
+  border-color: #ff4d4f;
+  box-shadow: 0 0 0 2px rgba(255, 77, 79, 0.2);
+}
+
+/* Security badge styling */
+.security-badge {
+  display: inline-flex;
+  align-items: center;
+  background: #f6ffed;
+  color: #389e0d;
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 500;
+  margin-left: 8px;
+}
+
+.security-badge .anticon {
+  margin-right: 4px;
+}
+
+/* Consent checkboxes styling */
+.consent-checkbox {
+  margin-bottom: 16px;
+}
+
+.consent-checkbox .ant-checkbox-wrapper {
+  align-items: flex-start;
+}
+
+.consent-checkbox .ant-checkbox {
+  margin-top: 2px;
+}
+
+.consent-text {
+  padding-left: 8px;
+  line-height: 1.6;
+}
+
+.consent-text strong {
+  color: #1890ff;
+  display: block;
+  margin-bottom: 4px;
+}
+
+/* Legal disclaimer styling */
+.legal-disclaimer {
+  background: #fff7e6;
+  border: 1px solid #ffd591;
+  border-radius: 6px;
+  padding: 16px;
+  margin: 20px 0;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.legal-disclaimer strong {
+  color: #d46b08;
+}
+
+/* Progress indicator styling */
+.progress-indicator {
+  background: #f0f2f5;
+  padding: 16px;
+  border-radius: 6px;
+  margin: 16px 0;
+}
+
+.progress-text {
+  color: #666;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .loan-application-container {
+    padding: 16px;
+  }
+  
+  .loan-application-header {
+    padding: 16px;
+  }
+  
+  .loan-application-header h1 {
+    font-size: 24px;
+  }
+  
+  .steps-content {
+    padding: 16px 0;
+  }
+  
+  .ant-card {
+    margin: 0 -8px;
+  }
+  
+  .compliance-section {
+    padding: 16px;
+  }
+}
+
+/* High security input styling */
+.high-security-input {
+  border: 2px solid #1890ff;
+  background: #f6ffed;
+}
+
+.high-security-input:focus {
+  border-color: #52c41a;
+  box-shadow: 0 0 0 3px rgba(82, 196, 26, 0.1);
+}
+
+/* Verification status badges */
+.verification-status {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 500;
+  margin-left: 8px;
+}
+
+.verification-status.pending {
+  background: #fff7e6;
+  color: #d46b08;
+}
+
+.verification-status.verified {
+  background: #f6ffed;
+  color: #389e0d;
+}
+
+.verification-status.failed {
+  background: #fff2f0;
+  color: #cf1322;
+}
+
+/* Financial input styling */
+.financial-input {
+  font-size: 16px;
+  font-weight: 500;
+  color: #1890ff;
+}
+
+.financial-input .ant-input-number-input {
+  font-weight: 500;
+}
+
+/* Loading overlay */
+.loading-overlay {
+  position: relative;
+}
+
+.loading-overlay::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.8);
+  z-index: 10;
+}
+
+/* Encryption notice */
+.encryption-notice {
+  background: #f0f5ff;
+  border: 1px solid #adc6ff;
+  border-radius: 4px;
+  padding: 12px;
+  margin-top: 8px;
+  font-size: 12px;
+  color: #1d39c4;
+}
+
+.encryption-notice .anticon {
+  margin-right: 6px;
+}
+
+/* Production warning banner */
+.production-warning {
+  background: #ff4d4f;
+  color: white;
+  padding: 12px;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 24px;
+  border-radius: 6px;
+}
+
+.production-warning .anticon {
+  margin-right: 8px;
+}
+
+/* Real money processing alert */
+.real-money-alert {
+  background: linear-gradient(135deg, #ff4d4f 0%, #cf1322 100%);
+  color: white;
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 24px;
+  box-shadow: 0 4px 12px rgba(207, 19, 34, 0.3);
+}
+
+.real-money-alert h4 {
+  color: white;
+  margin-bottom: 8px;
+}
+
+.real-money-alert p {
+  margin: 0;
+  opacity: 0.95;
+}

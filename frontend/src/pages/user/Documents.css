@@ -1,0 +1,292 @@
+/* Documents Page Styles */
+.documents-page {
+  padding: 16px;
+  background: #f5f5f5;
+  min-height: 100vh;
+  padding-bottom: 120px;
+}
+
+.documents-header {
+  text-align: center;
+  margin-bottom: 24px;
+  padding: 16px 0;
+}
+
+.documents-header h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+  color: #262626;
+}
+
+.documents-header p {
+  margin: 8px 0 0 0;
+  color: #8c8c8c;
+  font-size: 14px;
+}
+
+/* Document Categories */
+.document-categories .category-card {
+  padding: 16px;
+  background: #fff;
+  border: 2px solid #f0f0f0;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.category-card:hover {
+  border-color: #d9d9d9;
+}
+
+.category-card.selected {
+  border-color: #1677ff;
+  background: #f6f8ff;
+}
+
+.category-icon {
+  position: relative;
+  font-size: 32px;
+  color: #1677ff;
+  margin-bottom: 8px;
+}
+
+.category-info .category-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: #262626;
+  margin-bottom: 4px;
+}
+
+.category-info .category-count {
+  font-size: 12px;
+  color: #8c8c8c;
+}
+
+.category-filter {
+  margin-top: 16px;
+}
+
+/* Recent Documents */
+.recent-documents .document-status-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+}
+
+.document-name {
+  font-weight: 600;
+  color: #262626;
+  margin-bottom: 4px;
+}
+
+.document-meta {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+  color: #8c8c8c;
+}
+
+.empty-documents {
+  text-align: center;
+  padding: 40px 20px;
+  color: #8c8c8c;
+}
+
+.empty-documents svg {
+  font-size: 48px;
+  margin-bottom: 12px;
+}
+
+/* Upload Section */
+.upload-section {
+  text-align: center;
+}
+
+.upload-info {
+  margin-bottom: 20px;
+}
+
+.upload-info p {
+  margin: 8px 0;
+  color: #595959;
+  font-size: 14px;
+}
+
+.file-limit {
+  font-size: 12px;
+  color: #8c8c8c;
+}
+
+/* Status Overview */
+.status-overview .status-stats {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.status-item {
+  text-align: center;
+  padding: 12px;
+  border-radius: 8px;
+  min-width: 60px;
+}
+
+.status-item.approved {
+  background: #f6ffed;
+  color: #52c41a;
+}
+
+.status-item.pending {
+  background: #fffbe6;
+  color: #faad14;
+}
+
+.status-item.rejected {
+  background: #fff2f0;
+  color: #ff4d4f;
+}
+
+.status-item.expired {
+  background: #fafafa;
+  color: #8c8c8c;
+}
+
+.status-number {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.status-label {
+  font-size: 12px;
+}
+
+.completion-status {
+  background: #f6f8ff;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.completion-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+/* Upload Modal */
+.upload-modal .form-item {
+  margin-bottom: 20px;
+}
+
+.upload-modal label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #262626;
+}
+
+.upload-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  border: 2px dashed #d9d9d9;
+  border-radius: 8px;
+  background: #fafafa;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.upload-placeholder:hover {
+  border-color: #1677ff;
+  background: #f6f8ff;
+}
+
+.upload-placeholder svg {
+  font-size: 32px;
+  color: #8c8c8c;
+  margin-bottom: 8px;
+}
+
+.upload-placeholder span {
+  color: #8c8c8c;
+  font-size: 14px;
+}
+
+/* Document Details */
+.document-details .detail-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.detail-item:last-of-type {
+  border-bottom: none;
+}
+
+.detail-label {
+  font-weight: 600;
+  color: #8c8c8c;
+}
+
+.detail-value {
+  color: #262626;
+  text-align: right;
+}
+
+.reject-reason {
+  margin: 16px 0;
+  padding: 12px;
+  background: #fff2f0;
+  border-radius: 6px;
+  border-left: 4px solid #ff4d4f;
+}
+
+.reject-reason h4 {
+  margin: 0 0 8px 0;
+  color: #ff4d4f;
+  font-size: 14px;
+}
+
+.reject-reason p {
+  margin: 0;
+  color: #595959;
+  font-size: 14px;
+}
+
+.document-actions {
+  margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+  .documents-page {
+    padding: 12px;
+  }
+  
+  .category-card {
+    padding: 12px;
+  }
+  
+  .category-icon {
+    font-size: 28px;
+  }
+  
+  .status-stats {
+    gap: 8px;
+  }
+  
+  .status-item {
+    padding: 8px;
+    min-width: 50px;
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "title": "贷款计算器",
+  "subtitle": "计算您的贷款条款",
+  "description": "使用我们的计算器估算您的月供、总利息和贷款期限。",
+  
+  "inputs": {
+    "loanAmount": "贷款金额",
+    "loanAmountPlaceholder": "输入贷款金额",
+    "interestRate": "年利率 (%)",
+    "interestRatePlaceholder": "输入利率",
+    "loanTerm": "贷款期限",
+    "loanTermMonths": "{{months}}个月",
+    "loanTermYears": "{{years}}年",
+    "downPayment": "首付款",
+    "downPaymentPlaceholder": "输入首付金额"
+  },
+  
+  "outputs": {
+    "monthlyPayment": "月供",
+    "totalInterest": "总利息",
+    "totalAmount": "总还款金额",
+    "apr": "年百分率（APR）",
+    "payoffDate": "还清日期"
+  },
+  
+  "breakdown": {
+    "title": "还款明细",
+    "principal": "本金",
+    "interest": "利息",
+    "escrow": "托管（保险和税费）",
+    "pmi": "私人抵押保险"
+  },
+  
+  "amortization": {
+    "title": "摊销计划表",
+    "payment": "第{{number}}期",
+    "paymentAmount": "还款金额",
+    "principalAmount": "本金",
+    "interestAmount": "利息",
+    "remainingBalance": "剩余本金",
+    "totalInterestPaid": "累计利息",
+    "showFullSchedule": "显示完整计划表",
+    "hideSchedule": "隐藏计划表"
+  },
+  
+  "scenarios": {
+    "title": "贷款方案",
+    "compare": "比较方案",
+    "addScenario": "添加方案",
+    "removeScenario": "删除方案",
+    "scenario": "方案{{number}}",
+    "bestOption": "最佳选择",
+    "lowestPayment": "最低月供",
+    "lowestInterest": "最低总利息",
+    "shortestTerm": "最短期限"
+  },
+  
+  "tips": {
+    "title": "贷款建议",
+    "items": [
+      "更多的首付款可以减少月供和总利息。",
+      "较短的贷款期限意味着更高的月供但更少的总利息。",
+      "您的实际利率可能根据信用分数和其他因素有所不同。",
+      "考虑额外费用如保险、税费和PMI。",
+      "预审批可以帮助您了解借贷能力。"
+    ]
+  },
+  
+  "validation": {
+    "loanAmountRequired": "贷款金额为必填项",
+    "loanAmountMin": "最低贷款金额为${{min}}",
+    "loanAmountMax": "最高贷款金额为${{max}}",
+    "interestRateRequired": "利率为必填项",
+    "interestRateMin": "利率至少为{{min}}%",
+    "interestRateMax": "利率不能超过{{max}}%",
+    "loanTermRequired": "贷款期限为必填项",
+    "loanTermMin": "最短贷款期限为{{min}}个月",
+    "loanTermMax": "最长贷款期限为{{max}}个月",
+    "downPaymentMax": "首付款不能超过贷款金额"
+  },
+  
+  "prequalification": {
+    "title": "预审批估算",
+    "subtitle": "获得贷款资格估算",
+    "income": "年收入",
+    "creditScore": "信用分数范围",
+    "monthlyDebts": "月债务还款",
+    "estimate": "估算贷款金额",
+    "dtiRatio": "债务收入比",
+    "maxDtiAllowed": "最高允许债务收入比：{{ratio}}%",
+    "recommendations": "建议"
+  },
+  
+  "affordability": {
+    "title": "负担能力计算器",
+    "subtitle": "您能承担多少贷款？",
+    "monthlyIncome": "月总收入",
+    "monthlyExpenses": "月支出",
+    "desiredPayment": "期望月供",
+    "maxAffordable": "最高可负担贷款",
+    "comfortablePayment": "舒适还款范围",
+    "budgetTips": "预算建议"
+  },
+  
+  "buttons": {
+    "calculate": "计算",
+    "reset": "重置",
+    "save": "保存计算",
+    "share": "分享",
+    "print": "打印",
+    "export": "导出PDF",
+    "getPrequalified": "获得预审批",
+    "applyNow": "立即申请"
+  },
+  
+  "messages": {
+    "calculating": "计算中...",
+    "noResults": "请输入数值查看结果",
+    "invalidInput": "请检查输入数值",
+    "calculationSaved": "计算结果保存成功",
+    "calculationError": "计算错误"
+  }
+}

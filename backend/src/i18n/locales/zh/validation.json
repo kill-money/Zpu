@@ -1,0 +1,125 @@
+{
+  "required": "此字段为必填项",
+  "invalid": "格式无效",
+  "tooShort": "至少需要{{min}}个字符",
+  "tooLong": "最多{{max}}个字符",
+  "minValue": "最小值为{{min}}",
+  "maxValue": "最大值为{{max}}",
+  "invalidEmail": "邮箱地址格式无效",
+  "invalidPhone": "电话号码格式无效",
+  "invalidUrl": "网址格式无效",
+  "invalidDate": "日期格式无效",
+  "futureDateRequired": "日期必须是未来时间",
+  "pastDateRequired": "日期必须是过去时间",
+  "passwordTooWeak": "密码必须包含大小写字母、数字和特殊字符",
+  "passwordMismatch": "密码不匹配",
+  
+  "ssn": {
+    "required": "社会安全号码为必填项",
+    "invalid": "SSN格式无效，必须是XXX-XX-XXXX或XXXXXXXXX格式",
+    "invalidLength": "SSN必须是9位数字",
+    "invalidFormat": "SSN必须遵循XXX-XX-XXXX格式",
+    "invalidDigits": "SSN只能包含数字和连字符",
+    "invalidArea": "SSN区域号码无效（前3位数字）",
+    "invalidGroup": "SSN组号码无效（中间2位数字）",
+    "invalidSerial": "SSN序列号码无效（后4位数字）",
+    "blacklisted": "此SSN不可使用"
+  },
+  
+  "ein": {
+    "required": "雇主识别号码为必填项",
+    "invalid": "EIN格式无效，必须是XX-XXXXXXX格式",
+    "invalidLength": "EIN必须是9位数字",
+    "invalidFormat": "EIN必须遵循XX-XXXXXXX格式",
+    "invalidPrefix": "EIN前缀无效（前2位数字）",
+    "invalidDigits": "EIN只能包含数字和连字符"
+  },
+  
+  "routing": {
+    "required": "银行路由号码为必填项",
+    "invalid": "路由号码格式无效",
+    "invalidLength": "路由号码必须是9位数字",
+    "invalidChecksum": "路由号码校验和无效",
+    "bankNotFound": "未找到此路由号码对应的银行",
+    "invalidBank": "此银行不支持ACH转账"
+  },
+  
+  "account": {
+    "required": "账户号码为必填项",
+    "invalid": "账户号码格式无效",
+    "tooShort": "账户号码至少需要{{min}}位数字",
+    "tooLong": "账户号码最多{{max}}位数字",
+    "invalidDigits": "账户号码只能包含数字"
+  },
+  
+  "address": {
+    "required": "地址为必填项",
+    "invalid": "地址格式无效",
+    "streetRequired": "街道地址为必填项",
+    "cityRequired": "城市为必填项",
+    "stateRequired": "州为必填项",
+    "zipRequired": "邮政编码为必填项",
+    "invalidZip": "邮政编码格式无效",
+    "invalidZipPlus4": "ZIP+4格式无效（XXXXX-XXXX）",
+    "invalidState": "美国州缩写无效"
+  },
+  
+  "state": {
+    "required": "州为必填项",
+    "invalid": "美国州缩写无效",
+    "notUS": "仅接受美国州"
+  },
+  
+  "phone": {
+    "required": "电话号码为必填项",
+    "invalid": "美国电话号码格式无效",
+    "invalidFormat": "电话格式必须是(XXX) XXX-XXXX",
+    "invalidArea": "区号无效",
+    "invalidExchange": "交换机号码无效"
+  },
+  
+  "income": {
+    "required": "年收入为必填项",
+    "invalid": "收入金额无效",
+    "tooLow": "最低年收入为${{min}}",
+    "tooHigh": "最高年收入为${{max}}",
+    "notRealistic": "请输入合理的收入金额"
+  },
+  
+  "credit": {
+    "scoreRequired": "信用评分为必填项",
+    "scoreInvalid": "信用评分必须在300-850之间",
+    "scoreTooLow": "所需最低信用评分为{{min}}",
+    "historyRequired": "信用历史长度为必填项",
+    "historyTooShort": "最短信用历史为{{min}}个月"
+  },
+  
+  "loan": {
+    "amountRequired": "贷款金额为必填项",
+    "amountTooLow": "最低贷款金额为${{min}}",
+    "amountTooHigh": "最高贷款金额为${{max}}",
+    "termRequired": "贷款期限为必填项",
+    "termTooShort": "最短贷款期限为{{min}}个月",
+    "termTooLong": "最长贷款期限为{{max}}个月",
+    "purposeRequired": "贷款用途为必填项",
+    "invalidPurpose": "选择的贷款用途无效"
+  },
+  
+  "employment": {
+    "statusRequired": "就业状态为必填项",
+    "employerRequired": "在职时雇主名称为必填项",
+    "positionRequired": "在职时职位为必填项",
+    "durationRequired": "就业时长为必填项",
+    "durationTooShort": "最短就业时长为{{min}}个月"
+  },
+  
+  "identity": {
+    "dobRequired": "出生日期为必填项",
+    "dobInvalid": "出生日期无效",
+    "tooYoung": "必须年满18岁",
+    "tooOld": "年龄无效 - 请核实出生日期",
+    "citizenshipRequired": "公民身份为必填项",
+    "idRequired": "政府颁发的身份证件为必填项",
+    "idTypeRequired": "身份证件类型为必填项"
+  }
+}

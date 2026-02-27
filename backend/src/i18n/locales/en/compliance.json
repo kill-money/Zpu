@@ -1,0 +1,139 @@
+{
+  "fcra": {
+    "title": "Fair Credit Reporting Act (FCRA) Disclosure",
+    "subtitle": "Important Information About Background Reports",
+    "intro": "In connection with your application for credit, we may obtain information about you from a consumer reporting agency. This notice is being provided to inform you of your rights under the Fair Credit Reporting Act (FCRA).",
+    
+    "rights": {
+      "title": "Your Rights Under the Fair Credit Reporting Act",
+      "summary": "The Fair Credit Reporting Act (FCRA) is designed to promote accuracy, fairness, and privacy of information in the files of every \"consumer reporting agency\" (CRA). Most CRAs are credit bureaus that gather and sell information about you -- such as if you pay your bills on time or have filed bankruptcy -- to creditors, employers, landlords, and other businesses. You can find the complete text of the FCRA, 15 U.S.C. 1681-1681y, at the Consumer Financial Protection Bureau's web site (http://www.consumerfinance.gov).",
+      
+      "items": [
+        "You must be told if information in your file has been used against you. Anyone who uses information from a CRA to take action against you -- such as denying an application for credit, insurance, or employment -- must tell you, and give you the name, address, and phone number of the CRA that provided the information.",
+        
+        "You can find out what is in your file. At your request, a CRA must give you the information in your file, and a list of everyone who has requested it recently. There is no charge for the report if a person has taken action against you because of information supplied by the CRA, if you request the report within 60 days of receiving notice of the action. You also are entitled to one free report every 12 months upon request. You will be charged a reasonable fee for additional reports.",
+        
+        "You can dispute inaccurate information with the CRA. If you tell a CRA that your file contains inaccurate information, the CRA must investigate the items (usually within 30 days) by presenting to its information source all relevant evidence you submit, unless your dispute is frivolous. The source must review your evidence and report its findings to the CRA. The CRA must give you a written report of the investigation and a copy of your report if the investigation results in any change. If the CRA's investigation does not resolve the dispute, you may add a brief statement to your file.",
+        
+        "Inaccurate information must be corrected or deleted. A CRA must remove or correct inaccurate or unverified information from its files, usually within 30 days after you dispute it. However, the CRA is not required to remove accurate data from your file unless it is outdated or cannot be verified. If your dispute results in any change to your report, the CRA cannot reinsert the disputed information unless the information source verifies its accuracy and completeness. Also, the CRA must give you written notice that it has reinserted the item. The notice must include the name, address and phone number of the information source.",
+        
+        "You can dispute inaccurate items with the source of the information. If you tell anyone -- such as a creditor who reports to a CRA -- that you dispute an item, they may not report the information to a CRA without including a notice of your dispute. In addition, once you've told the source of the information that you dispute it, it may not continue to report it if it is inaccurate.",
+        
+        "Outdated information may not be reported. In most cases, a CRA may not report negative information that is more than seven years old, or bankruptcies that are more than 10 years old.",
+        
+        "Access to your file is limited. A CRA may provide information about you only to people with a valid need -- usually to consider an application with a creditor, insurer, employer, landlord, or other business.",
+        
+        "Your consent is required for reports that are provided to employers, or reports that contain medical information. A CRA may not give out information about you to your employer, or prospective employer, without your written consent. A CRA may not report medical information about you to creditors, insurers, or employers without your permission.",
+        
+        "You may choose to exclude your name from CRA lists for unsolicited credit and insurance offers. Creditors and insurers may use file information as the basis for sending you unsolicited offers of credit or insurance. Such offers must include a toll-free phone number for you to call if you want your name and address removed from future lists. If you call, you must be kept off the lists for two years. If you request, complete, and return the CRA form provided for this purpose, you must be taken off the lists indefinitely.",
+        
+        "You may seek damages from violators. If a CRA, a user or (in some cases) a provider of CRA data, violates the FCRA, you may sue them in state or federal court."
+      ]
+    },
+    
+    "consent": {
+      "title": "Authorization for Consumer Report",
+      "text": "I understand that in connection with my application for credit, {{companyName}} may obtain information about me from one or more consumer reporting agencies. This may include obtaining my credit report and other information about my credit history. I authorize {{companyName}} to obtain such information solely in connection with considering my application for credit.",
+      "checkbox": "I have read and understand the Fair Credit Reporting Act disclosure above and I authorize {{companyName}} to obtain a consumer report about me."
+    },
+    
+    "adverse": {
+      "title": "Pre-Adverse Action Notice",
+      "intro": "We have received information from a consumer reporting agency in connection with your application. Before we make a final decision that may be unfavorable to you, we are providing you with this notice of your rights.",
+      "actions": "You have the right to obtain a free copy of your consumer report from the consumer reporting agency listed below within 60 days. You also have the right to dispute the accuracy or completeness of any information contained in the report directly with the consumer reporting agency.",
+      "contact": "Consumer Reporting Agency: {{agencyName}}\nAddress: {{agencyAddress}}\nPhone: {{agencyPhone}}\nWebsite: {{agencyWebsite}}"
+    },
+    
+    "final": {
+      "title": "Final Adverse Action Notice",
+      "intro": "We regret to inform you that your application for credit has been denied based in whole or in part on information contained in a consumer report.",
+      "reason": "The following information from your consumer report was considered in our decision: {{reasons}}",
+      "rights": "You have the right to obtain a free copy of the consumer report that was used in our decision within 60 days by contacting the consumer reporting agency listed below. You also have the right to dispute the accuracy or completeness of any information in the report directly with the consumer reporting agency."
+    }
+  },
+  
+  "ecoa": {
+    "title": "Equal Credit Opportunity Act (ECOA) Notice",
+    "subtitle": "Your Rights Under the Equal Credit Opportunity Act",
+    
+    "notice": {
+      "title": "Federal Equal Credit Opportunity Act Notice",
+      "text": "The federal Equal Credit Opportunity Act prohibits creditors from discriminating against credit applicants on the basis of race, color, religion, national origin, sex, marital status, age (provided the applicant has the capacity to enter into a binding contract); because all or part of the applicant's income derives from any public assistance program; or because the applicant has in good faith exercised any right under the Consumer Credit Protection Act. The federal agency that administers compliance with this law concerning this creditor is the Consumer Financial Protection Bureau, 1700 G Street N.W., Washington DC 20552."
+    },
+    
+    "rights": {
+      "title": "Your Rights If You Are Denied Credit",
+      "intro": "If your application for credit is denied, you have the right to a written statement of the specific reasons for the denial. To obtain the statement, please contact us within 60 days from the date you are notified of our decision. We will send you a written statement of reasons for the denial within 30 days of receiving your request for the statement.",
+      
+      "items": [
+        "You have the right to have the cosigner receive a copy of all notices that relate to the debt.",
+        "You are not required to reveal information about income from alimony, child support, or separate maintenance payments unless you want it considered as a basis for repaying credit.",
+        "If you are denied credit, you may complain to the Consumer Financial Protection Bureau.",
+        "You may bring a court action based on a violation of the Equal Credit Opportunity Act."
+      ]
+    },
+    
+    "adverse": {
+      "title": "Notice of Action Taken and Statement of Reasons",
+      "sections": {
+        "action": "We have taken the following action on your application: {{action}}",
+        "principal": "Principal reason(s) for this action: {{reasons}}",
+        "ecoa": "The Equal Credit Opportunity Act prohibits creditors from discriminating against credit applicants on the basis of race, color, religion, national origin, sex, marital status, age (provided the applicant has the capacity to enter into a binding contract); because all or part of the applicant's income derives from any public assistance program; or because the applicant has in good faith exercised any right under the Consumer Credit Protection Act.",
+        "contact": "If you have any questions about this notice, contact us at: {{contactInfo}}"
+      }
+    }
+  },
+  
+  "tila": {
+    "title": "Truth in Lending Act (TILA) Disclosure",
+    "subtitle": "Important Credit Terms and Cost Disclosure",
+    
+    "terms": {
+      "title": "Credit Terms",
+      "apr": "Annual Percentage Rate (APR): {{apr}}%",
+      "financeCharge": "Finance Charge: ${{financeCharge}}",
+      "amountFinanced": "Amount Financed: ${{amountFinanced}}",
+      "totalPayments": "Total of Payments: ${{totalPayments}}",
+      "paymentSchedule": "Payment Schedule: {{payments}} payments of ${{paymentAmount}} each",
+      "latePayment": "Late Payment Fee: ${{latePaymentFee}} or {{latePaymentPercent}}% of the overdue amount, whichever is less",
+      "prepayment": "Prepayment: If you pay off early, you {{prepaymentPenalty}}"
+    },
+    
+    "rightToCancel": {
+      "title": "Your Right to Cancel",
+      "notice": "You may cancel this transaction, without any penalty or obligation, within three business days from the above date or any later date on which all material disclosures required under the Truth in Lending Act have been given to you. If you cancel, any property given to you to secure the credit will be returned to you, and any security interest or lien held by us will be automatically void. If you cancel, you must give back to us any money or property we have given to you."
+    }
+  },
+  
+  "tcpa": {
+    "title": "Telephone Consumer Protection Act (TCPA) Consent",
+    "subtitle": "Authorization for Contact",
+    
+    "consent": {
+      "title": "Communication Authorization",
+      "text": "By providing your telephone number(s) and submitting this application, you consent to {{companyName}} and its authorized agents contacting you regarding your loan application and account by telephone, mobile device (including SMS and MMS), email, or any other means of communication. Your consent includes contact by automatic telephone dialing systems, artificial or prerecorded voice messages, and text messages. You understand that your consent is not a condition of purchasing any property, goods, or services.",
+      "checkbox": "I consent to receiving communications from {{companyName}} as described above.",
+      "revoke": "You may revoke this consent at any time by calling us at {{phoneNumber}} or by sending us a written request to {{address}}."
+    }
+  },
+  
+  "privacy": {
+    "title": "Privacy Policy Notice",
+    "subtitle": "How We Protect and Use Your Information",
+    
+    "collection": {
+      "title": "Information We Collect",
+      "text": "We collect personal information about you from the following sources: Information you provide on applications and other forms, such as your name, address, social security number, income, and employment information; Information about your transactions with us or others; and Information from consumer reporting agencies and other sources."
+    },
+    
+    "use": {
+      "title": "How We Use Information",
+      "text": "We may disclose personal information about you to the following types of third parties: Financial service providers, such as companies engaged in banking, credit cards, consumer finance, securities, and insurance; Non-financial companies, such as direct marketers and publishers; and Others, such as non-profit organizations."
+    },
+    
+    "security": {
+      "title": "How We Protect Your Information",
+      "text": "We maintain physical, electronic, and procedural safeguards to protect your personal information. We limit access to personal information about you to employees who need to know that information to provide products or services to you."
+    }
+  }
+}

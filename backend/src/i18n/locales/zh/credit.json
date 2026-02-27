@@ -1,0 +1,190 @@
+{
+  "title": "信用检查模拟",
+  "subtitle": "模拟信用报告分析",
+  "description": "使用各种信用档案测试我们的信用评估系统。",
+  
+  "simulation": {
+    "title": "信用档案模拟",
+    "generateProfile": "生成随机档案",
+    "customProfile": "创建自定义档案",
+    "runAnalysis": "运行信用分析",
+    "resetProfile": "重置档案"
+  },
+  
+  "creditScore": {
+    "title": "信用分数",
+    "current": "当前分数",
+    "range": "分数范围",
+    "excellent": "优秀 (750-850)",
+    "veryGood": "非常好 (700-749)",
+    "good": "良好 (650-699)",
+    "fair": "一般 (600-649)",
+    "poor": "较差 (300-599)",
+    "factors": "分数因素"
+  },
+  
+  "creditHistory": {
+    "title": "信用历史",
+    "historyLength": "信用历史长度",
+    "oldestAccount": "最早账户",
+    "newestAccount": "最新账户",
+    "averageAge": "平均账户年龄",
+    "accountTypes": "账户类型"
+  },
+  
+  "paymentHistory": {
+    "title": "还款历史",
+    "onTime": "按时还款",
+    "late30": "逾期30+天",
+    "late60": "逾期60+天",
+    "late90": "逾期90+天",
+    "chargeOffs": "坏账核销",
+    "collections": "催收账户",
+    "publicRecords": "公共记录"
+  },
+  
+  "creditUtilization": {
+    "title": "信用使用率",
+    "overallRatio": "总体使用率",
+    "perCardRatio": "单卡使用率",
+    "totalCredit": "总可用额度",
+    "totalBalance": "总余额",
+    "recommendation": "理想使用率低于30%"
+  },
+  
+  "accounts": {
+    "title": "信用账户",
+    "totalAccounts": "总账户数",
+    "openAccounts": "开放账户",
+    "closedAccounts": "已关闭账户",
+    "creditCards": "信用卡",
+    "installmentLoans": "分期贷款",
+    "mortgages": "房贷",
+    "studentLoans": "学生贷款",
+    "autoLoans": "汽车贷款"
+  },
+  
+  "inquiries": {
+    "title": "信用查询",
+    "hardInquiries": "硬查询",
+    "softInquiries": "软查询", 
+    "recent": "近期查询（24个月内）",
+    "impact": "对分数的影响",
+    "types": {
+      "creditCard": "信用卡",
+      "autoLoan": "汽车贷款",
+      "mortgage": "房贷",
+      "personalLoan": "个人贷款",
+      "studentLoan": "学生贷款"
+    }
+  },
+  
+  "publicRecords": {
+    "title": "公共记录",
+    "bankruptcies": "破产记录",
+    "taxLiens": "税收留置权",
+    "judgments": "民事判决",
+    "foreclosures": "止赎记录",
+    "none": "无公共记录"
+  },
+  
+  "riskAssessment": {
+    "title": "风险评估",
+    "overallRisk": "总体风险水平",
+    "riskFactors": "风险因素",
+    "protectiveFactors": "保护因素",
+    "recommendation": "放贷建议",
+    "approvalOdds": "批准几率",
+    "suggestedTerms": "建议条款"
+  },
+  
+  "riskLevels": {
+    "veryLow": "极低风险",
+    "low": "低风险",
+    "moderate": "中等风险", 
+    "high": "高风险",
+    "veryHigh": "极高风险"
+  },
+  
+  "recommendations": {
+    "title": "建议",
+    "approve": "批准",
+    "approveWithConditions": "有条件批准",
+    "counterOffer": "反向报价",
+    "decline": "拒绝",
+    "manualReview": "需要人工审核"
+  },
+  
+  "lendingTerms": {
+    "title": "建议放贷条款",
+    "interestRate": "利率",
+    "maxLoanAmount": "最高贷款金额",
+    "requiredDownPayment": "所需首付",
+    "loanTerm": "贷款期限",
+    "conditions": "特殊条件",
+    "collateral": "抵押要求"
+  },
+  
+  "simulation_profiles": {
+    "title": "预定义档案",
+    "excellent": {
+      "name": "优秀信用档案",
+      "description": "高信用分数，长历史，低使用率"
+    },
+    "good": {
+      "name": "良好信用档案",
+      "description": "稳定信用分数，轻微问题"
+    },
+    "fair": {
+      "name": "一般信用档案",
+      "description": "平均信用，一些逾期记录"
+    },
+    "poor": {
+      "name": "较差信用档案", 
+      "description": "低信用分数，多个问题"
+    },
+    "newCredit": {
+      "name": "新信用档案",
+      "description": "有限信用历史，少数账户"
+    },
+    "recovery": {
+      "name": "信用恢复档案",
+      "description": "财务困难后重建"
+    }
+  },
+  
+  "analysis": {
+    "title": "信用分析结果",
+    "scoreBreakdown": "分数明细",
+    "keyFindings": "关键发现",
+    "strengthsWeaknesses": "优势与劣势",
+    "improvementSuggestions": "改进建议",
+    "monthlyMonitoring": "月度监控要点"
+  },
+  
+  "compliance": {
+    "title": "合规检查",
+    "fcraCompliant": "FCRA合规",
+    "ecoaCompliant": "ECOA合规",
+    "adverseAction": "需要不利行动",
+    "disclosures": "必需披露",
+    "documentation": "文档要求"
+  },
+  
+  "buttons": {
+    "runSimulation": "运行模拟",
+    "generateNew": "生成新档案",
+    "saveProfile": "保存档案",
+    "exportReport": "导出报告",
+    "viewDetails": "查看详情",
+    "compareProfiles": "比较档案"
+  },
+  
+  "messages": {
+    "analyzing": "正在分析信用档案...",
+    "simulationComplete": "信用模拟完成",
+    "profileGenerated": "新档案已生成",
+    "analysisError": "分析过程中出错",
+    "noProfile": "请先创建或加载信用档案"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "title": "Loan Calculator",
+  "subtitle": "Calculate Your Loan Terms",
+  "description": "Use our calculator to estimate your monthly payments, total interest, and loan terms.",
+  
+  "inputs": {
+    "loanAmount": "Loan Amount",
+    "loanAmountPlaceholder": "Enter loan amount",
+    "interestRate": "Annual Interest Rate (%)",
+    "interestRatePlaceholder": "Enter interest rate",
+    "loanTerm": "Loan Term",
+    "loanTermMonths": "{{months}} months",
+    "loanTermYears": "{{years}} years",
+    "downPayment": "Down Payment",
+    "downPaymentPlaceholder": "Enter down payment amount"
+  },
+  
+  "outputs": {
+    "monthlyPayment": "Monthly Payment",
+    "totalInterest": "Total Interest",
+    "totalAmount": "Total Amount to Pay",
+    "apr": "Annual Percentage Rate (APR)",
+    "payoffDate": "Payoff Date"
+  },
+  
+  "breakdown": {
+    "title": "Payment Breakdown",
+    "principal": "Principal",
+    "interest": "Interest",
+    "escrow": "Escrow (Insurance & Taxes)",
+    "pmi": "Private Mortgage Insurance"
+  },
+  
+  "amortization": {
+    "title": "Amortization Schedule",
+    "payment": "Payment #",
+    "paymentAmount": "Payment Amount",
+    "principalAmount": "Principal",
+    "interestAmount": "Interest",
+    "remainingBalance": "Remaining Balance",
+    "totalInterestPaid": "Total Interest Paid",
+    "showFullSchedule": "Show Full Schedule",
+    "hideSchedule": "Hide Schedule"
+  },
+  
+  "scenarios": {
+    "title": "Loan Scenarios",
+    "compare": "Compare Scenarios",
+    "addScenario": "Add Scenario",
+    "removeScenario": "Remove Scenario",
+    "scenario": "Scenario {{number}}",
+    "bestOption": "Best Option",
+    "lowestPayment": "Lowest Monthly Payment",
+    "lowestInterest": "Lowest Total Interest",
+    "shortestTerm": "Shortest Term"
+  },
+  
+  "tips": {
+    "title": "Loan Tips",
+    "items": [
+      "A larger down payment reduces your monthly payment and total interest.",
+      "Shorter loan terms mean higher monthly payments but less total interest.",
+      "Your actual rate may vary based on your credit score and other factors.",
+      "Consider additional costs like insurance, taxes, and PMI.",
+      "Pre-qualification can help you understand your borrowing power."
+    ]
+  },
+  
+  "validation": {
+    "loanAmountRequired": "Loan amount is required",
+    "loanAmountMin": "Minimum loan amount is ${{min}}",
+    "loanAmountMax": "Maximum loan amount is ${{max}}",
+    "interestRateRequired": "Interest rate is required",
+    "interestRateMin": "Interest rate must be at least {{min}}%",
+    "interestRateMax": "Interest rate cannot exceed {{max}}%",
+    "loanTermRequired": "Loan term is required",
+    "loanTermMin": "Minimum loan term is {{min}} months",
+    "loanTermMax": "Maximum loan term is {{max}} months",
+    "downPaymentMax": "Down payment cannot exceed loan amount"
+  },
+  
+  "prequalification": {
+    "title": "Pre-Qualification Estimate",
+    "subtitle": "Get an estimate of your loan eligibility",
+    "income": "Annual Income",
+    "creditScore": "Credit Score Range",
+    "monthlyDebts": "Monthly Debt Payments",
+    "estimate": "Estimated Loan Amount",
+    "dtiRatio": "Debt-to-Income Ratio",
+    "maxDtiAllowed": "Maximum DTI Allowed: {{ratio}}%",
+    "recommendations": "Recommendations"
+  },
+  
+  "affordability": {
+    "title": "Affordability Calculator",
+    "subtitle": "How much can you afford to borrow?",
+    "monthlyIncome": "Monthly Gross Income",
+    "monthlyExpenses": "Monthly Expenses",
+    "desiredPayment": "Desired Monthly Payment",
+    "maxAffordable": "Maximum Affordable Loan",
+    "comfortablePayment": "Comfortable Payment Range",
+    "budgetTips": "Budget Tips"
+  },
+  
+  "buttons": {
+    "calculate": "Calculate",
+    "reset": "Reset",
+    "save": "Save Calculation",
+    "share": "Share",
+    "print": "Print",
+    "export": "Export to PDF",
+    "getPrequalified": "Get Pre-Qualified",
+    "applyNow": "Apply Now"
+  },
+  
+  "messages": {
+    "calculating": "Calculating...",
+    "noResults": "Please enter values to see results",
+    "invalidInput": "Please check your input values",
+    "calculationSaved": "Calculation saved successfully",
+    "calculationError": "Error performing calculation"
+  }
+}
